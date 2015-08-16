@@ -1,0 +1,37 @@
+/*================================>>
+.cart_icon, .cart_items, #search, .main-menu .sf-menu > li, .main-menu .sf-menu > li > a, .product_buttons a, #newsletter a, .main-menu .sf-menu li li, .main-menu .sf-menu li.first_item, .main-menu .sf-menu li.first_item>a,
+  .main-menu .sf-menu li.last_item, .main-menu .sf-menu li.last_item>a, .like_us, .sorting_block #view a, .categories_nav .buttons a, .tags a, .featured_product ul, .responsive-tabs li, .add_product{behavior:url(js/PIE.htc);position:relative;}
+  .slide_button, .sale_label, .price_filter #slider .ui-corner-all{behavior:url(js/PIE.htc);}
+
+<<========================================*/
+.cart_icon, .cart_items, #search{behavior:url(js/PIE.htc);position:relative;}
+
+.main-menu .sf-menu > li > a{padding-left: 0;padding-right: 0;text-align: center;width: 157px;}
+.main-menu .sf-menu > li.first_item > a{width: 155px;}
+.main-menu .sf-menu > li > a{background: #ffab00;}
+.cart_content{display: none;}
+#shopping_cart.active .cart_content{
+  display: block;
+}
+.main{width: 1000px;}
+body{min-width: 1024px;}
+
+.lat_product img, .bestseller img{width: 100%;}
+
+.detail_view {width: 65px;}
+.add_to_cart{width: 35px;}
+
+.banners1 a span, .banner5 a span{display: none;}
+.banners1 a:hover span, .banner5 a:hover span{display: block;}
+
+#category.grid > li .product_buttons{padding-left: 45px;}
+
+#partners li img{filter:alpha(opacity=44)}
+#partners li img:hover{filter:alpha(opacity=100)}
+
+.confirm_quantity input{width: 85px;margin:10px 0 5px;}
+
+.tab_box1 > figure{float: left;margin: 0 15px 0 0;display: block;}
+.tab_box1 > div{overflow: visible;}
+
+header h1 a {background:url(../image/logo_ie.png) 0 0 no-repeat;}

@@ -1,0 +1,45 @@
+.carousel-div{
+	padding:0 0 3px 0  ;
+	}
+.list_carousel {
+	margin: 0 0 4px -17px;
+	width: auto;
+	position:relative;
+    }
+.list_carousel ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+	display: block;
+	cursor:pointer;
+	}
+.list_carousel li {
+	float: left;
+  position: relative;
+	display:block;
+	line-height:22px;
+}
+.list_carousel.responsive {
+	width: auto;
+}
+
+.carousel_btn{
+  width: 8px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: -51px;
+}
+.car_prev{
+  background: url('../image/car_prev.png') no-repeat;
+  right: 23px;
+}
+.car_next{
+  background: url('../image/car_next.png') no-repeat;
+  right: 0px;
+}
+.carousel_btn:hover{
+  background-position: 0 -12px !important;
+}
+.caroufredsel_wrapper{min-height: 298px;}
+.mih_a .caroufredsel_wrapper{min-height: 50px;}
